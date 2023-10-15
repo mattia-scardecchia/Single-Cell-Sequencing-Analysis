@@ -14,13 +14,13 @@ In this phase, we investigated the statistical properties of our data through a 
 
 Cell Filtering             |  Gene Filtering
 :-------------------------:|:-------------------------:
-![Each circle represents a cell from HCC sequenced with SmartSeq, with an indication of the sparsity of its expression profile (x axis), its total volume (y axis) and the fraction of mithocondrial genes (circle radius)](https://github.com/MattiaSC01/Single-Cell-Sequencing-Analysis/blob/main/readme_figures/volume_vs_sparsity_vs_mitochondria.png)  |  ![Each dot here represents a gene, with an indication of mean and variance of its expression across HCC cells in the SmartSeq sequencing](https://github.com/MattiaSC01/Single-Cell-Sequencing-Analysis/blob/main/readme_figures/mean_variance.png)
+![Each circle represents a cell from HCC sequenced with SmartSeq, with an indication of the sparsity of its expression profile (x axis), its total volume (y axis) and the fraction of mithocondrial genes (circle radius)](https://github.com/MattiaSC01/Single-Cell-Sequencing-Analysis/blob/main/figures_readme/volume_vs_sparsity_vs_mitochondria.png)  |  ![Each dot here represents a gene, with an indication of mean and variance of its expression across HCC cells in the SmartSeq sequencing](https://github.com/MattiaSC01/Single-Cell-Sequencing-Analysis/blob/main/figures_readme/mean_variance.png)
 
 ### Unsupervised Analysis
 
 In this phase, we used various dimensionality reduction and clustering techniques to gain more insight into the structure of our data, as well as to obtain a parsimonious representation of the gene expression profiles to make supervised learning more efficient. Here, for instance, you can see a visualization of the gene expression profiles of cells, where genes and cells have been ordered based on the results of agglomerative clustering run independently for both.
 
-![gene_expression ordering based on agglomerative clustering](https://github.com/MattiaSC01/Single-Cell-Sequencing-Analysis/blob/main/readme_figures/gene_expression_using_clustering_ordering.png)
+![gene_expression ordering based on agglomerative clustering](https://github.com/MattiaSC01/Single-Cell-Sequencing-Analysis/blob/main/figures_readme/gene_expression_using_clustering_ordering.png)
 
 ### Supervised Learning
 
