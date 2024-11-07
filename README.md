@@ -6,7 +6,7 @@ This work was supervised by Prof. Francesca Buffa, and was a collaboration with 
 
 ## Project Structure
 
-We explored data coming from two cancerous cell lines (HCC1806, MCF7) that was collected using single-cell RNA sequencing techniques (SmartSeq, DropSeq). A detailed report of our analysis, with code, figures and comments, can be found in `report.ipynb`. The analysis is structured in three main building blocks: Exploratory Data Analysis, Unsupervised Analysis and Supervised Learning.
+We explored data coming from two cancerous cell lines (HCC1806, MCF7) that was collected using single-cell RNA sequencing techniques (SmartSeq, DropSeq). A detailed report of our analysis, with code, figures and comments, can be found in `report.ipynb`. The analysis is structured in three main parts: Exploratory Data Analysis, Unsupervised Analysis and Supervised Learning. For a detailed overview of methods and findings, refer to `report.ipyb`.
 
 ### Exploratory Data Analysis
 
@@ -24,4 +24,4 @@ In this phase, we used various dimensionality reduction and clustering technique
 
 ### Supervised Learning
 
-In this final phase, we trained classifiers using a variety of techniques, and leveraging the filtering and the unsupervised analysis to engineer good features to train our models on. Using a K-fold cross-validation scheme, we selected the best performing models and built an ensemble that was able to correctly predict hypoxia/normoxia with a 95-97% accuracy on a held-out test set (with roughly balanced classes), depending on the cell line and sequencing technique.
+In the final phase, we trained and evaluated classifiers using a variety of machine learning techniques, from simple random forests to deep residual neural networks. We leveraged the filtering and the unsupervised analysis to reduce noise and engineer good features for our models. Using a K-fold cross-validation scheme, we selected the best performing models and built an ensemble that was able to correctly predict hypoxia/normoxia with 95-97% accuracy on a held-out test set (with roughly balanced classes), depending on the cell line and sequencing technique.
